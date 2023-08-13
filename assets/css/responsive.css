@@ -1,0 +1,139 @@
+/* For Smartphone */
+@media only screen and (max-width: 768px) {
+  /* awal navbar */
+  nav .container .navbar-nav {
+    display: none;
+  }
+
+  nav .container .hamburger {
+    display: block;
+    margin-right: 1rem;
+  }
+
+  nav .container .navbar-nav {
+    width: 100%;
+  }
+
+  nav .container .navbar-nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav .container .navbar-nav ul li {
+    margin-bottom: 1rem;
+  }
+  /* akhir navbar */
+
+  /* awal beranda */
+  section .hero video {
+    height: 100vh;
+    object-fit: cover;
+
+  }
+  .title{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-left: 0;
+  }
+
+  /* akhir beranda */
+
+  /* awal biografi */
+  .biografi .container {
+    margin: 0 1rem;
+  }
+
+  .biografi .deskripsi .space {
+    text-align: justify;
+  }
+  /* akhir biografi */
+
+  /* awal agenda */
+  .agenda .container {
+    margin: 1rem 1rem;
+  }
+
+  .agenda .container h1 {
+    margin-bottom: 1rem;
+  }
+
+  .agenda .container .cards .card {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  /* akhir agenda */
+
+  /* awal etalase */
+  .etalase .container {
+    margin: 1rem;
+  }
+
+  .etalase .container h1 {
+    margin-bottom: 1rem;
+  }
+
+  .etalase .container .products .product:last-child {
+    margin-bottom: 2rem;
+  }
+  /* akhir etalase */
+
+  /* awal teman tulus */
+  .teman-tulus .container {
+    padding: 1rem;
+  }
+
+  .teman-tulus .container .img-tulus {
+    width: 100%;
+  }
+
+  .teman-tulus .container .form-teman {
+    width: 100%;
+  }
+
+  .teman-tulus .container .form-teman .submit {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  /* akhir teman tulus */
+
+  /* awal kontak */
+  .kontak .container {
+    margin: 1rem;
+    text-align: justify;
+  }
+
+  /* akhir kontak */
+
+  /* awal pembelian */
+  .pembelian .container {
+    padding: 1rem;
+  }
+
+  .pembelian .container .form-beli {
+    width: 100%;
+  }
+
+  .pembelian .container .form-beli .submit {
+    padding-bottom: 1rem;
+  }
+  /* akhir pembelian */
+
+  /* awal footer */
+  footer .container {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  footer .container .info img {
+    margin-right: 0.5rem;
+  }
+  /* akhir footer */
+}
+
+@media only screen and (min-width: 768px) {
+  nav .container .navbar-nav {
+    display: block !important;
+  }
+}
